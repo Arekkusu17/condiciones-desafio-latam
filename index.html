@@ -41,25 +41,29 @@
         <img class="img-fluid rounded-circle" src="assets/img/tokyo.jpg" alt="" id="circleImg" />
         <p class="my-3">Click on the image to draw the border</p>
       </section>
-      <section class="container text-center">
+      <section class="container text-center my-4">
         <h4 id="scrollspyHeading2">Second Challenge</h4>
         <p>You can buy up to 10 stickers in total</p>
         <div class="row">
-          <div class="col-4">
-            <img src="" alt="" />
-            <input type="number" name="" id="" />
+          <div class="col-12 col-md-4">
+            <img class="img-fluid sticker-img mb-3" src="assets/img/dinosaur-sticker.png" alt="" />
+            <input type="number" name="" id="qtyFirstSticker" value="1" min="1" />
           </div>
-          <div class="col-4">
-            <img src="" alt="" />
-            <input type="number" name="" id="" />
+          <div class="col-12 col-md-4">
+            <img class="img-fluid sticker-img mb-3" src="assets/img/narwhal-sticker.png" alt="" />
+            <input type="number" name="" id="qtySecondSticker" value="1" min="1" />
           </div>
-          <div class="col-4">
-            <img src="" alt="" />
-            <input type="number" name="" id="" />
+          <div class="col-12 col-md-4">
+            <img class="img-fluid sticker-img mb-3" src="assets/img/pink-cow-sticker.png" alt="" />
+            <input type="number" name="" id="qtyThirdSticker" value="1" min="1" />
           </div>
         </div>
+        <p id="qtyTotalStickers"></p>
+        <button class="btn btn-primary d-inlineblock" type="button" id="buttonStickers">
+          Verify
+        </button>
       </section>
-      <section>
+      <section class="container text-center my-4">
         <h4 id="scrollspyHeading3">Third Challenge</h4>
         <p></p>
       </section>

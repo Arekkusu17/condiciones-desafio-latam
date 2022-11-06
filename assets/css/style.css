@@ -1,5 +1,9 @@
-.img-fluid {
+#circleImg {
   width: 45%;
+}
+
+.sticker-img {
+  width: 70%;
 }
 
 .border-pink {
