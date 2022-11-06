@@ -1,0 +1,7 @@
+.img-fluid {
+  width: 45%;
+}
+
+.border-pink {
+  border: solid rgb(255, 0, 251) 2px;
+}
