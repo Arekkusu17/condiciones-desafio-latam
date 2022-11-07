@@ -9,3 +9,8 @@
 .border-pink {
   border: solid rgb(255, 0, 251) 2px;
 }
+
+.form-select {
+  width: 15%;
+  display: inline;
+}

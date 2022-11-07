@@ -27,3 +27,23 @@ btnStickers.addEventListener("click", () => {
     qtyTotalStickers.textContent = "You have too many stickers";
   }
 });
+
+//THIRD CHALLENGE
+const password1 = "911";
+const password2 = "714";
+const firstDigit = document.querySelector("#firstDigit");
+const secondDigit = document.querySelector("#secondDigit");
+const thirdDigit = document.querySelector("#thirdDigit");
+const btnPassword = document.querySelector("#buttonPassword");
+const passwordChecked = document.querySelector("#passwordChecked");
+
+btnPassword.addEventListener("click", () => {
+  const passwordEntered = firstDigit.value + secondDigit.value + thirdDigit.value;
+  if (passwordEntered === password1) {
+    passwordChecked.textContent = "Password 1 Correct";
+  } else if (passwordEntered === password2) {
+    passwordChecked.textContent = "Password 2 Correct";
+  } else {
+    passwordChecked.textContent = "The password is incorrect";
+  }
+});
