@@ -1,4 +1,4 @@
-//FIRST CHALLENGE
+//FIRST TASK
 
 const circleImage = document.querySelector("#circleImg");
 
@@ -6,7 +6,7 @@ circleImage.addEventListener("click", () => {
   circleImage.classList.toggle("border-red");
 });
 
-//SECOND CHALLENGE
+//SECOND TASK
 
 const qtyFirstSticker = document.querySelector("#qtyFirstSticker");
 const qtySecondSticker = document.querySelector("#qtySecondSticker");
@@ -28,7 +28,7 @@ btnStickers.addEventListener("click", () => {
   }
 });
 
-//THIRD CHALLENGE
+//THIRD TASK
 const password1 = "911";
 const password2 = "714";
 const firstDigit = document.querySelector("#firstDigit");
